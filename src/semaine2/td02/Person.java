@@ -59,11 +59,11 @@ class Person {
         int otherAge = 404; String otherName = "grincheux";
         System.out.println(alice + "\t" + bruno + "\t" + clement);
         alice.changeMyAge(otherAge);
-        alice.changeAName(otherName);
-        bruno.changeYourAge(otherAge);
+        // alice.changeAName(otherName);
+        // bruno.changeYourAge(otherAge);
         alice.changeAnotherName(otherName);
         System.out.println(alice + "\t" + bruno + "\t" + clement + "\t" + otherAge+otherName);
-        otherName = bruno.changeYourName(otherName);
+        // otherName = bruno.changeYourName(otherName);
         System.out.println(alice + "\t" + bruno + "\t" + clement + "\t" + otherAge+otherName);
     }
 }

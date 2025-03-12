@@ -1,4 +1,4 @@
-package src.semaine1.tp01;
+package semaine1.tp01;
 public class UseHighScore2 {
     public static void main(String[] args) {
         int size = Integer.parseInt("10");

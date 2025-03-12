@@ -1,4 +1,4 @@
-package td04.Exercice02;
+package semaine4.td04.Exercice02;
 
 public class Book {
     private int weight=0;

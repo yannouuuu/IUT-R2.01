@@ -1,6 +1,5 @@
 package semaine4.td04.exercice01.q2;
 import java.util.ArrayList;
-import td4.q2.Descendant;
 
 public class Stallion {
     private final int MAX;

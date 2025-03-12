@@ -79,7 +79,7 @@ public class RBGColor{
 
     /*  Question 6  */ 
     public RBGColor blend(RBGColor from) {
-        return new RBGColor(this.red + from.red, this.green + from.green, this.blue + from.blue);
+        return new RBGColor(null, this.red + from.red, this.green + from.green, this.blue + from.blue);
     }
 
     // 2 pas de sens : static RBGColor blend(RBGColor c)

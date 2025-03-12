@@ -1,4 +1,4 @@
-package td04.Exercice02;
+package semaine4.td04.Exercice02;
 
 import java.util.ArrayList;
 

@@ -1,5 +1,4 @@
 package semaine4.td04.exercice01.q1;
-package ;
 
 // Majuscule = final
 // Souligné = static

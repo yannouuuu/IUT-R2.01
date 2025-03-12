@@ -19,7 +19,7 @@ public class Descendant {
     public String toString() {
         String result;
         if (displaying) {
-            result = ID;
+            result = String.valueOf(ID);
         } else {
             displaying = true;
             result = "Descendant{" +
