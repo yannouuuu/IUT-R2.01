@@ -3,20 +3,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "UseLocalDate",
-            "request": "launch",
-            "mainClass": "Semaine3.tp03.UseLocalDate",
-            "projectName": "IUT-R2.01_8678d3cf"
-        },
-        {
-            "type": "java",
-            "name": "UseCard",
-            "request": "launch",
-            "mainClass": "Semaine3.tp03.UseCard",
-            "projectName": "IUT-R2.01_8678d3cf"
-        },
-        {
-            "type": "java",
             "name": "Launch Application",
             "request": "launch",
             "mainClass": "Program",
