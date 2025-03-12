@@ -4,15 +4,20 @@ on:
   delete:
   workflow_dispatch:
 jobs:
-  to_gitlab:
+  mirroring:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - uses: pixta-dev/repository-mirroring-action@v1
-        with:
-          target_repo_url: git@gitlab-ssh.univ-lille.fr:yann.renard.etu/dev-oo.git
-          ssh_private_key: ${{ secrets.GITLAB_SSH_PRIVATE_KEY }}
+    - name: Checkout code
+      uses: actions/checkout@v2
 
-          
+    - name: Set up SSH
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan gitlab-ssh.univ-lille.fr >> ~/.ssh/known_hosts
+
+    - name: Push to GitLab
+      run: |
+        git remote add gitlab git@gitlab-ssh.univ-lille.fr:yann.renard.etu/dev-oo.git
+        git push gitlab main
