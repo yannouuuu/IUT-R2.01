@@ -19,6 +19,9 @@
 *.tar.gz
 *.rar
 
+# Exclude bin folder
+bin/
+
 # Exclude documentation
 doc/
 
