@@ -2,7 +2,9 @@
     "java.project.sourcePaths": [
         "src"
     ],
-    "java.project.referencedLibraries": [],
+    "java.project.referencedLibraries": [
+        "test-lib\\**\\*.jar"
+    ],
     "java.project.outputPath": "bin",
     "java.format.settings.url": ".vscode/java-formatter.xml",
     "[java]": {
