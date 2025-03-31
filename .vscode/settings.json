@@ -1,7 +1,5 @@
 {
-    "java.project.sourcePaths": [
-        "src"
-    ],
+    "java.project.sourcePaths": ["src"],
     "java.project.referencedLibraries": [
         "test-lib\\**\\*.jar",
         "test-lib/**/*.jar"
@@ -11,5 +9,6 @@
     "[java]": {
         "editor.insertSpaces": true,
         "editor.detectIndentation": true
-    }
+    },
+    "java.debug.settings.onBuildFailureProceed": true
 }

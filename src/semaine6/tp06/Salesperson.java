@@ -14,10 +14,12 @@ public abstract class Salesperson extends Employee {
     public double getTurnover() {
         return this.turnover;
     }
+    
+    public static double getObjective() {
+        return objective;
+    }
 
     public String toString() {
         return super.toString() + " " + this.getTurnover();
     }
-    
-
 }

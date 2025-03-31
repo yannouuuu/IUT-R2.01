@@ -1,4 +1,4 @@
-package tpOO.tp06;
+package semaine6.tp06;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

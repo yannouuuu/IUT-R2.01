@@ -4,10 +4,13 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class Company{
-    private LocalDate hiringDate;
     private ArrayList<Employee> staff;
 
     public Company(ArrayList<Employee> staff) {
+        this.staff = staff;
+    }
+    
+    public Company() {
         this.staff = new ArrayList<>();
     }
 
@@ -53,16 +56,16 @@ public class Company{
     }
 
     public void firing(LocalDate fatefulDate) {
-        for (int i = 0; i < staff.size(); i++) {
-            if (fatefulDate.isBefore(staff.get(i).getHiringDate())) {
+        for (int i = staff.size() - 1; i >= 0; i--) {
+            if (!staff.get(i).getHiringDate().isBefore(fatefulDate)) {
                 removeEmployee(i);
             }
         }
     }
 
     public void firing(){
-        for (int i = 0; i < staff.size(); i++) {
-            if(staff.get(i).objectiveFulfilled()){
+        for (int i = staff.size() - 1; i >= 0; i--) {
+            if(!staff.get(i).objectiveFulfilled()){
                 staff.remove(i);
             }
         }
