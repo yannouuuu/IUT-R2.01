@@ -108,6 +108,11 @@ public class Car {
         return salePrice;
     }
     
+    public double currentValue() {
+        int age = LocalDate.now().getYear() - onRoad.getYear();
+        return purchasePrice * Math.pow(1 - temporalDropRate, age);
+    }
+    
     @Override
     public String toString() {
         return "Car [" + brand + "," + onRoad + "," + mileage + "km," + salePrice + "euros]";
