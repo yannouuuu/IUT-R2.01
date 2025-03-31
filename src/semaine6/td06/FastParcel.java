@@ -1,3 +1,5 @@
+package semaine6.td06;
+
 class FastParcel extends PostParcel {
     public FastParcel() {
         super(1);

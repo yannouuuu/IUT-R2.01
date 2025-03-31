@@ -1,4 +1,4 @@
-package td06;
+package semaine6.td06;
 
 public class UseParcel { // Ce code contient des erreurs à démontrer dans la question Q3 de l'exercice 2
     public static void main(String[] args) {

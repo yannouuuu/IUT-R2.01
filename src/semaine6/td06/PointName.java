@@ -1,3 +1,5 @@
+package semaine6.td06;
+
 class PointName extends Point {
     private char nom;
     private int x,y;

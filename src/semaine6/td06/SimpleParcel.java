@@ -1,3 +1,5 @@
+package semaine6.td06;
+
 class SimpleParcel extends PostParcel, CourrierParcel {
     public Parcel() {
         super(1);

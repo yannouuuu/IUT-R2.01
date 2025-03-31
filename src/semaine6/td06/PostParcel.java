@@ -1,3 +1,5 @@
+package semaine6.td06;
+
 class PostParcel {
     private double weight;
 

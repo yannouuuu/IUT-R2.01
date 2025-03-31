@@ -1,3 +1,5 @@
+package semaine6.td06;
+
 class Point {
     private int x,y;
     public Point(int x, int y) {
