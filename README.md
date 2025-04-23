@@ -19,14 +19,19 @@
 
 ## Sommaire
 
-- [Semaine 1 : Bases de la programmation orientée objet](./Semaine1/)
-- [Semaine 2 : Gestion des références](./Semaine2/)
-- [Semaine 3 : ](./Semaine3/)
-- [Semaine 4 : ](./Semaine4/)
-- [Semaine 5 : ](./Semaine5/)
-- [Semaine 6 : ](./Semaine6/)
-- [Semaine 7 : ](./Semaine7/)
-- [Semaine 8 : ](./Semaine8/)
+- [Semaine 1 : Bases de la programmation orientée objet](./src/semaine1/)
+- [Semaine 2 : Gestion des références](./src/semaine2/)
+- [Semaine 3 : Attributs, méthodes et classes statiques](./src/semaine3/)
+- [Semaine 4 : Encapsulation, Surcharge, Chaînage et Polymorphisme](./src/semaine4/)
+- [Semaine 5 : Héritage et Polymorphisme](./src/semaine5/)
+- [Semaine 6 : Mécanismes de l'héritage](./src/semaine6/)
+- [Semaine 7 : ](./src/semaine7/)
+- [Semaine 8 : ](./src/semaine8/)
+- [Semaine 9 : ](./src/semaine9/)
+- [Semaine 10 : ](./src/semaine10/)
+
+- [Qualité de dev : ](./src/tqQU/)
+
 
 ### Conseils/Commandes pratiques
 
@@ -43,8 +48,8 @@ Pour configurer un environnement de développement similaire à celui utilisé e
 
 ### Remerciements
 
-Nous tenons à créditer **SECQ Yann et ABIDI Sofiene, ALMEIDA COCO Amadeu, BONEVA Iovka, CASTILLON 
-Antoine, DELECROIX Fabien, LEPRETRE Éric, SANTANA MAIA Deise** pour la création des diaporamas de cours, des TP, TD et pour la réalisation des SAE chaque semaine. Leur travail a été précieux pour notre apprentissage.
+Nous tenons à créditer **NONGAILLARD Antoine et ABIDI Sofiene, ALMEIDA COCO Amadeu, BONEVA Iovka, CASTILLON 
+Antoine, DELECROIX Fabien, LEPRETRE Éric, SANTANA MAIA Deise** pour la création des diaporamas de cours, des TP, TD et pour la réalisation des SAE. Leur travail a été précieux pour notre apprentissage.
 
 <br/>
 <p align="center">
