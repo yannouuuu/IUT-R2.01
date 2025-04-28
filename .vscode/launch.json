@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "semaine7.td07.Main",
+            "projectName": "IUT-R2.01_e8a9502f"
+        },
+        {
+            "type": "java",
             "name": "Launch Application",
             "request": "launch",
             "mainClass": "Program",
