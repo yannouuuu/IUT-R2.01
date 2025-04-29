@@ -25,7 +25,7 @@
 - [Semaine 4 : Encapsulation, Surcharge, Chaînage et Polymorphisme](./src/semaine4/)
 - [Semaine 5 : Héritage et Polymorphisme](./src/semaine5/)
 - [Semaine 6 : Mécanismes de l'héritage](./src/semaine6/)
-- [Semaine 7 : ](./src/semaine7/)
+- [Semaine 7 : Héritage, Interface et structure de données](./src/semaine7/)
 - [Semaine 8 : ](./src/semaine8/)
 - [Semaine 9 : ](./src/semaine9/)
 - [Semaine 10 : ](./src/semaine10/)

@@ -13,8 +13,14 @@ public class PhoneNumber {
         this.areaCode = areaCode;
         this.secteurCode = secteurCode;
         this.one = one;
-        this.one = two;
+        this.two = two;
         this.three = three;
+    }
+
+    @Override
+    public String toString() {
+        // Retourne le numéro sous la forme XX.XX.XX
+        return String.format("%02d.%02d.%02d", one, two, three);
     }
 
     // public String standardFormat() {
@@ -22,10 +28,6 @@ public class PhoneNumber {
     // } 
     
     // public String internationalFormat() {
-
-    // }
-
-    // public String toString() {
 
     // }
 }
